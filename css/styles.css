@@ -366,7 +366,7 @@ header {
     background-color: #c9c9c9;
     /*background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');*/
     /*background-image: url('../assets/reunion1.jpg');*/
-    background-image: url('../assets/kubs_images/header_background_1.jpg');
+    background-image: url('../assets/kubs_images/header_background_2.jpg');
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -403,20 +403,20 @@ header .header-content {
 
 header .header-content .inner h1 {
 	font-size: 75px !important;
-    margin-top: 0;
+/* margin-top: 0;
     margin-bottom: 0;
-	margin-left: 2.9em;
+	margin-left: 2.9em; */
 }
 
 header .header-content .inner p {
-	margin-top: 1em !important;
+/* margin-top: 1em !important;
     margin-bottom: 50px !important;
 	margin-right: 0 !important;
 	max-width: 47% !important;
     font-size: 20px !important;
     font-weight: 300 !important;
     color: rgba(255,255,255,0.7);
-	text-align:left;
+	text-align:left; */
 }
 
 #research .icon-out-food {
@@ -529,6 +529,7 @@ footer {
     
     header {
         min-height: 100%;
+		background-image: url('../assets/kubs_images/header_background_1.jpg');
     }
 
     header .header-content {
@@ -547,16 +548,28 @@ footer {
     }
 
     header .header-content .inner h1 {
-        font-size: 100px;
+        font-size: 75px !important;
+		margin-top: 0;
+    	margin-bottom: 0;
+		margin-left: 2.9em;
     }
 
     header .header-content .inner p {
-        margin-right: auto;
+        /*margin-right: auto;
         margin-left: auto;
         max-width: 80%;
-        font-size: 18px;
+        font-size: 18px;*/
+		margin-top: 1em !important;
+		margin-bottom: 50px !important;
+		margin-right: 0em !important;
+		margin-left: 26.3em !important;
+		max-width: 47% !important;
+		font-size: 20px !important;
+		font-weight: 300 !important;
+		color: rgba(255,255,255,0.7);
+		text-align:left;
     }
-    
+   
     section {
         min-height: 600px;
         padding: 100px 0;
